@@ -1,0 +1,18 @@
+# Central/deep-midfield transfer fees, reported figures (Transfermarkt), in EUR millions.
+# Public reporting only — no scraping. Fees are the standard widely-cited
+# headline numbers (some include add-ons); treat as approximate. The honest
+# comparison is Kroos vs James (same club, same summer, controls for transfer
+# inflation); later years are shown with their year labels because general
+# fee inflation, not only Kroos's role, lifts them.
+player,year,from_club,to_club,fee_m,role
+Toni Kroos,2014,Bayern Munich,Real Madrid,25,deep-lying playmaker
+James Rodriguez,2014,Monaco,Real Madrid,75,attacking midfielder
+Kevin De Bruyne,2015,Wolfsburg,Man City,76,central midfielder
+Paul Pogba,2016,Juventus,Man Utd,105,central midfielder
+Frenkie de Jong,2019,Ajax,Barcelona,86,central midfielder
+Rodri,2019,Atletico Madrid,Man City,70,defensive midfielder
+Aurelien Tchouameni,2022,Monaco,Real Madrid,80,defensive midfielder
+Declan Rice,2023,West Ham,Arsenal,117,defensive midfielder
+Enzo Fernandez,2023,Benfica,Chelsea,121,central midfielder
+Jude Bellingham,2023,Dortmund,Real Madrid,103,central midfielder
+Moises Caicedo,2023,Brighton,Chelsea,116,defensive midfielder

@@ -1,0 +1,40 @@
+# environments
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# data — raw scrapes AND derived parquet are regenerable from source; the
+# repo ships code + figures, never the data itself. Leading slash anchors
+# this to the repo root so it does NOT match the package's football_enigma/data/ source
+/data/
+
+# blog drafts stay private (published elsewhere) — GitHub shows the
+# code and the figures, not the written essays
+players/*/blog/
+
+# blog tooling: builds the private kroos.docx from the private kroos.md, so
+# it only ever touches players/*/blog/ (already ignored) — no purpose in the
+# shipped repo. Kept locally for regenerating the Word export.
+players/*/build_docx.py
+
+# internal working context, not for GitHub
+CLAUDE.md
+
+# third-party source material (YouTube transcript) — reference only, not
+# ours to redistribute; the editable transfer_fees.csv stays tracked
+players/*/source/*.srv1
+players/*/source/*transcript*
+
+# notebook noise
+.ipynb_checkpoints/
+
+# scratch figures (smoke tests etc.)
+players/*/figures/_*
+
+# office temp / lock files (e.g. ~$kroos.docx while open in Word)
+~$*
+
+# OS
+Thumbs.db
+.DS_Store

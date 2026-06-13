@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "football-enigma"
+version = "0.1.0"
+description = "Football Enigma — data-driven profiles of football's statistical outliers"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.26",
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+    "statsbombpy>=1.14",
+    "soccerdata>=1.8",
+    "mplsoccer>=1.4",
+    "selenium>=4.20",
+    "requests>=2.31",
+    "highlight-text>=0.2",
+    "adjustText>=1.0",
+    "pyarrow>=15.0",
+    "networkx>=3.0",
+    "python-docx>=1.2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "jupyter", "ipykernel"]
+
+[tool.setuptools]
+packages = [
+    "football_enigma",
+    "football_enigma.data",
+    "football_enigma.metrics",
+    "football_enigma.viz",
+    "football_enigma.utils",
+]
