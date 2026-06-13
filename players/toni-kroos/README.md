@@ -3,7 +3,7 @@
 ### _"The Metronome Nobody Measured."_
 
 Standard passing stats — volume, completion % — file Toni Kroos with the
-pack: a tidy, high-percentage passer among many. This first post argues the
+pack: a tidy, high-percentage passer among many. This analysis argues the
 pack chart is measuring the wrong thing. Change the instrument — rhythm,
 geography, risk-free progression, centrality — and the same player turns into
 the lone dot, off the scale, in whichever direction you point it.

@@ -10,7 +10,6 @@
 &nbsp;![Stack](https://img.shields.io/badge/built%20with-pandas%20%7C%20matplotlib%20%7C%20mplsoccer-150458)
 &nbsp;![Data](https://img.shields.io/badge/data-StatsBomb%20%7C%20Opta-2EA44F)
 &nbsp;![Tests](https://img.shields.io/badge/tests-38%20passing-brightgreen)
-&nbsp;![Post 1](https://img.shields.io/badge/post%20%231-Toni%20Kroos-F2A33C)
 
 <br>
 
@@ -35,7 +34,7 @@ progression, centrality) and the pack chart detonates into a single dot,
 off the scale, in whichever direction you point it. Every instrument here is
 defined in the open, unit-tested, and reproducible from this repo.
 
-### Selected figures — Post #1, Toni Kroos
+### Selected figures — Toni Kroos
 
 <table>
 <tr>
@@ -86,7 +85,6 @@ window); all pulls cache locally so they run once.
 - **Opta via WhoScored** — full-career event data (scraped politely and
   cached locally; only derived figures and aggregates are published, never
   raw events).
-- Non-commercial portfolio project.
 
 ## Method notes
 
@@ -103,5 +101,5 @@ window); all pulls cache locally so they run once.
 
 <div align="center">
 <br>
-<sub>Non-commercial portfolio project · figures are derived aggregates · no raw data redistributed</sub>
+<sub>Sports portfolio project · Hala Madrid! · For the love of the game!</sub>
 </div>
