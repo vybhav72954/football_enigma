@@ -16,7 +16,14 @@ NOTEBOOKS = [
     "05_never_first.py",     # always near the top, never the top
     "06_first_receiver.py",  # the outlet the defenders look for
     "07_territory.py",       # two men, one midfield (heatmap pair)
+    "08_third_man.py",       # the crown: third-man connectors per 90
+    "09_receiver_uplift.py",  # teammates more dangerous after his feed
+    "10_persistence.py",     # the crown held: 13 seasons, one number
 ]
+# Figs 08/09 read the board + uplift caches written by
+# notebooks/_third_man_robustness.py; fig 10 reads the career table written by
+# notebooks/_third_man_replication.py (the falsification battery) — run those
+# once first, the same way _pull_*.py / _build_axes.py warm the caches for 01-07.
 
 here = Path(__file__).parent / "notebooks"
 for nb in NOTEBOOKS:

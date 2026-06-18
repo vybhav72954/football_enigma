@@ -9,7 +9,7 @@
 ![Python](https://img.shields.io/badge/Python-3.13-3776AB?logo=python&logoColor=white)
 &nbsp;![Stack](https://img.shields.io/badge/built%20with-pandas%20%7C%20matplotlib%20%7C%20mplsoccer-150458)
 &nbsp;![Data](https://img.shields.io/badge/data-StatsBomb%20%7C%20Opta-2EA44F)
-&nbsp;![Tests](https://img.shields.io/badge/tests-38%20passing-brightgreen)
+&nbsp;![Tests](https://img.shields.io/badge/tests-57%20passing-brightgreen)
 
 <br>
 
@@ -34,6 +34,10 @@ progression, centrality) and the pack chart detonates into a single dot,
 off the scale, in whichever direction you point it. Every instrument here is
 defined in the open, unit-tested, and reproducible from this repo.
 
+**Post #2** takes the harder case — Sergio Busquets, who *never* becomes the
+lone dot on a conventional axis, yet tops one purpose-built board the standard
+instruments can't see (and, honestly, only inside the system built for him).
+
 ### Selected figures — Toni Kroos
 
 <table>
@@ -49,13 +53,29 @@ defined in the open, unit-tested, and reproducible from this repo.
 </tr>
 </table>
 
+### Selected figures — Sergio Busquets
+
+<table>
+<tr>
+<td width="33%"><img src="players/sergio-busquets/figures/08_third_man.png" alt="the third-man connector"></td>
+<td width="33%"><img src="players/sergio-busquets/figures/09_receiver_uplift.png" alt="the receiver uplift"></td>
+<td width="33%"><img src="players/sergio-busquets/figures/10_persistence.png" alt="thirteen-season persistence"></td>
+</tr>
+<tr>
+<td align="center"><sub>The pass that lets the pass happen —<br>the one board that crowns him #1</sub></td>
+<td align="center"><sub>The same teammates, measurably more<br>dangerous after a Busquets feed</sub></td>
+<td align="center"><sub>Thirteen seasons, one number —<br>the crown never moved</sub></td>
+</tr>
+</table>
+
 ## Structure
 
 ```
 football_enigma/   shared installable package (pip install -e .)
   data/            loaders + canonical event schema (105×68 m coordinates)
   metrics/         xT (inline), packing (360), pressure, aggregates,
-                   cadence, tempo, pass networks  — all unit-tested
+                   cadence, tempo, pass networks, defending, footprint,
+                   buildup  — all unit-tested
   viz/             house style, pitch wrappers, signature charts
 players/<slug>/    per-player notebooks, figures, sources
 tests/             metric + schema unit tests
