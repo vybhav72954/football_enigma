@@ -17,6 +17,7 @@ class CompSeason(NamedTuple):
 EURO_2024 = CompSeason(55, 282, True)
 EURO_2020 = CompSeason(55, 43, True)
 WORLD_CUP_2018 = CompSeason(43, 3, False)
+WORLD_CUP_2022 = CompSeason(43, 106, True)  # Spain, Busquets's captain swan-song
 
 CL_2015_16 = CompSeason(16, 27, False)  # final: Real Madrid - Atlético
 CL_2016_17 = CompSeason(16, 2, False)  # final: Juventus - Real Madrid
@@ -24,9 +25,18 @@ CL_2017_18 = CompSeason(16, 1, False)  # final: Real Madrid - Liverpool
 
 # StatsBomb open data: 2015/2016 is the COMPLETE 380-match La Liga season
 # (all 20 teams, Real Madrid included) — Kroos has full-season minutes here,
-# which is why it anchors the prime-Madrid analysis. Other seasons listed are
-# largely Barcelona's matches (= El Clásico only, for Kroos).
+# which is why it anchors the prime-Madrid analysis. Every OTHER season is the
+# Messi-era release: essentially Barcelona's full match slate (~30-38 games),
+# which makes it Busquets's near-complete club career 2008/09-2020/21. Only
+# 2020/21 has 360 freeze-frames. Pre-2014 seasons (events, pressure flags) let
+# the career-invariance curve reach back to his 2008 debut.
 LA_LIGA = {
+    "2008/2009": CompSeason(11, 41, False),
+    "2009/2010": CompSeason(11, 21, False),
+    "2010/2011": CompSeason(11, 22, False),
+    "2011/2012": CompSeason(11, 23, False),
+    "2012/2013": CompSeason(11, 24, False),
+    "2013/2014": CompSeason(11, 25, False),
     "2014/2015": CompSeason(11, 26, False),
     "2015/2016": CompSeason(11, 27, False),
     "2016/2017": CompSeason(11, 2, False),
@@ -37,3 +47,4 @@ LA_LIGA = {
 }
 
 KROOS_PLAYER_NAME = "Toni Kroos"
+BUSQUETS_PLAYER_NAME = "Sergio Busquets i Burgos"

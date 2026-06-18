@@ -22,6 +22,8 @@ _NAME_OVERRIDES = {
     "Sergio Busquets i Burgos": "Sergio Busquets",
     "Andrés Iniesta Luján": "Andrés Iniesta",
     "Francisco Román Alarcón Suárez": "Isco",
+    "Gerard Piqué Bernabéu": "Gerard Piqué",
+    "Javier Alejandro Mascherano": "Javier Mascherano",
 }
 
 
@@ -78,7 +80,9 @@ def crowd_scatter(
 
     row = data[data[player_col] == subject]
     if not row.empty:
-        highlight_point(ax, float(row[x].iloc[0]), float(row[y].iloc[0]), subject)
+        highlight_point(
+            ax, float(row[x].iloc[0]), float(row[y].iloc[0]), _short_name(subject)
+        )
 
     ax.set_xlabel(xlabel or x)
     ax.set_ylabel(ylabel or y)
